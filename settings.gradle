@@ -1,2 +1,3 @@
 rootProject.name='LeetCodeNow'
 include ':app'
+include ':app_kotlin'
