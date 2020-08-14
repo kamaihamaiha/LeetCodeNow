@@ -12,6 +12,7 @@ class Code {
         val l1 = ListNode(1, ListNode(5, ListNode(6)))
         val l2 = ListNode(1, ListNode(4,ListNode(7)))
         val node = mergerTwoList(l1, l2)
+
         node.print()
     }
 
