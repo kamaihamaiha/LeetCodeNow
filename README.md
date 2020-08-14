@@ -1,7 +1,7 @@
 ## 一起刷 LeetCode
 
-[力扣官网](https://leetcode-cn.com/)
-[算法题首页](https://leetcode-cn.com/problemset/algorithms/)
+- [力扣官网](https://leetcode-cn.com/)
+- [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
 
 
 从简单的开始，每一个人一个包。 java 版在 module **app** 中， kotlin 版在 module **app_kotlin** 中.
