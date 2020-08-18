@@ -32,27 +32,34 @@ class Code {
 
     fun code2(){
         val nums = arrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
-        maxSubArray(nums)
+        val maxSubArray = maxSubArray(nums)
+        print(maxSubArray)
 //        print(nums.contentToString())
     }
-
-
 
     fun maxSubArray(nums: Array<Int>):Int{
         var max = 0
         for (i in (1 .. nums.size)){
-            print(i)
+            val sum = getSubArray(nums, i)
+            if (max<sum) max = sum
         }
         return max
     }
 
-    fun getSubArray(nums: Array<Int>,length:Int){
-
+    fun getSubArray(nums: Array<Int>,length:Int): Int {
+        var max = 0
+        val endIndex = nums.size-length
+        for (i in (0..endIndex)){
+            val copyOfRange = nums.copyOfRange(i, i + length)
+            val arraySum = copyOfRange.getArraySum()
+            if (max < arraySum) max = arraySum
+        }
+        return max
     }
 
-    fun getArraySum(nums: Array<Int>): Int {
+    fun Array<Int>.getArraySum( ): Int {
         var sum = 0
-        nums.forEach {
+        forEach {
             sum+=it
         }
         return sum
