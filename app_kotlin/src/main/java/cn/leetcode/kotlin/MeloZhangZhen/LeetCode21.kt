@@ -1,3 +1,5 @@
+import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
+
 object LeetCode21 {
     @JvmStatic
     fun main(args: Array<String>) {
@@ -38,23 +40,3 @@ fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
 
 }
 
-/**
- * 链表结构
- */
-class ListNode {
-    var `val` = 0
-    var next: ListNode? = null
-
-    internal constructor(`val`: Int) {
-        this.`val` = `val`
-    }
-
-    internal constructor(`val`: Int, next: ListNode?) {
-        this.`val` = `val`
-        this.next = next
-    }
-
-    override fun toString(): String {
-        return "ListNode(`val`=$`val`, next=$next)"
-    }
-}

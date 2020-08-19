@@ -1,3 +1,5 @@
+import cn.leetcode.kotlin.MeloZhangZhen.model.TreeNode
+
 /**
  *70. 爬楼梯
  *
@@ -68,5 +70,3 @@ fun checkTree(templeft: TreeNode?, tempRight: TreeNode?): Boolean {
 
 }
 
-class TreeNode(var `val`: Int?, val left: TreeNode?, val right: TreeNode?) {
-}
