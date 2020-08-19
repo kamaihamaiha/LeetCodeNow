@@ -30,8 +30,23 @@ object LeetCode70 {
  *
  */
 fun climbStairs(n: Int): Int {
+//    n.run{
+//        this
+//    }
+//    run {
+//
+//    }
+    return if (n == 0 || n == 1) {
+        1
+    } else {
+        climbStairs(n - 1) + climbStairs(n - 2)
+    }
+}
 
-    //一共有 n 个数值
+fun climbStairs2(n: Int): Int {
+
+
+    //一共有 n 个数值 加上 0 有 n+1 个
     val dp = IntArray(n + 1)
     dp[0] = 1
     dp[1] = 1
