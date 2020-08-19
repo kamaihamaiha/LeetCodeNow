@@ -32,7 +32,7 @@ class Code {
 
     fun code2(){
         val nums = arrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
-        val maxSubArray = maxSubArray(nums)
+        val maxSubArray = Code53().maxSubArray(nums)
         print(maxSubArray)
 //        print(nums.contentToString())
     }
