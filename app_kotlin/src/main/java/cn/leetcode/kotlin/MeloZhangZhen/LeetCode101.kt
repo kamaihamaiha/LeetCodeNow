@@ -1,3 +1,4 @@
+import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
 import cn.leetcode.kotlin.MeloZhangZhen.model.TreeNode
 
 /**
@@ -35,21 +36,35 @@ object LeetCode101 {
                         TreeNode(3, null, null)))
 
 
-        System.out.println(isSymmetric(mTrueTree))
-//        System.out.println(isSymmetric(mFalseTree))
-
-
+        println(isSymmetric(mTrueTree))
     }
 
 
 }
 
-fun isSymmetric(root: TreeNode?): Boolean {
-    //递归  都不是 null 且相等
-    var templeft = root?.left
-    var tempRight = root?.right
+fun isSymmetric2(root: TreeNode?): Boolean {
+    //转换成链表 看是否对称
 
-    return checkTree(templeft, tempRight)
+//    acmeLeft(root)
+
+
+    return checkTree(root?.left, root?.right)
+
+
+}
+
+//fun acmeLeft(root: TreeNode?): Int? {
+//    if (root != null) {
+//
+//    } else {
+//        return null
+//    }
+//}
+
+
+fun isSymmetric(root: TreeNode?): Boolean {
+    //递归  都是 null或者相等
+    return checkTree(root?.left, root?.right)
 
 
 }
@@ -59,13 +74,13 @@ fun checkTree(templeft: TreeNode?, tempRight: TreeNode?): Boolean {
     return if (templeft == null && tempRight == null) {
         true
     } else if (templeft == null || tempRight == null) {
-            false
-        } else {
+        false
+    } else {
         //镜像对称  是右边的右边 等于左边的左边  中间和中间的一样
-            ((templeft.`val` == tempRight.`val`)
-                    && (checkTree(templeft.left, tempRight.right))
-                    && (checkTree(tempRight.left, templeft.right)))
-        }
+        ((templeft.`val` == tempRight.`val`)
+                && (checkTree(templeft.left, tempRight.right))
+                && (checkTree(tempRight.left, templeft.right)))
+    }
 
 
 }
