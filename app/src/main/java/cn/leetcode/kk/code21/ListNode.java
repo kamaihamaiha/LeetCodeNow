@@ -3,19 +3,19 @@ package cn.leetcode.kk.code21;
 /**
  * 单链表
  */
-public class ListNode {
+class ListNode {
 
-     int value;
-     ListNode nextNode;
+    int value;
+    ListNode nextNode;
 
-    public ListNode() {
+    ListNode() {
     }
 
-    public ListNode(int value) {
+    ListNode(int value) {
         this.value = value;
     }
 
-    public ListNode(int value, ListNode nextNode) {
+    ListNode(int value, ListNode nextNode) {
         this.value = value;
         this.nextNode = nextNode;
     }
