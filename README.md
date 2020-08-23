@@ -8,6 +8,25 @@
 #状态：未做
 #列表：LeetCode 热题 HOT100 
 #标签：无
+#时间：8/24--8/28
+
+题目 1：[有效的括号  （20)](https://leetcode-cn.com/problems/valid-parentheses/)
+
+题目 2：[买卖股票的最佳时机（121）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+)   
+
+题目 3：[ 只出现一次的数字（136）](https://leetcode-cn.com/problems/single-number/)   
+
+题目 4：[爬环形链表（141）](https://leetcode-cn.com/problems/linked-list-cycle/)   
+
+题目 5：[最小栈（155）](https://leetcode-cn.com/problems/min-stack/)   
+
+
+
+#难度：简单
+#状态：未做
+#列表：LeetCode 热题 HOT100 
+#标签：无
 #时间：8/17--8/21
 
 题目 1：[合并两个有序链表  （21)](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
