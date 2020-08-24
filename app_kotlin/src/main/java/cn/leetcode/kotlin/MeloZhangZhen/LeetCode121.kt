@@ -53,9 +53,9 @@ fun maxProfit (prices: IntArray): Int {
     var maxInt = 0
     for (it in prices.indices) {
         //今天之前的最小值 也就是最便宜的买入  记录当天之前的最低值
-        minInt = Math.min(prices[it], minInt)
+        minInt = prices[it].coerceAtMost(minInt)
         // 今天的利润是 prices[it]-minInt,之前的事 maxInt 取最大的
-        maxInt = Math.max(maxInt, prices[it] - minInt)
+        maxInt = maxInt.coerceAtLeast(prices[it] - minInt)
     }
     return maxInt
 }
