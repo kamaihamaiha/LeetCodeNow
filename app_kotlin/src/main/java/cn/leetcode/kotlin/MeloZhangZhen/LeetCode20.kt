@@ -28,16 +28,41 @@ object LeetCode121 {
 
         val price1 = arrayListOf<Int>(7, 1, 5, 3, 6, 4)
         val price2 = arrayListOf<Int>(7, 6, 4, 3, 1)
+        val price3 = arrayListOf<Int>(7, 6, 114, 3, 1)
 
         val priceInt1: IntArray = price1.toIntArray()
         val priceInt2: IntArray = price2.toIntArray()
+        val priceInt3: IntArray = price3.toIntArray()
 
         println(maxProfit(priceInt1))
         println(maxProfit(priceInt2))
+        println(maxProfit(priceInt3))//114-6  108
     }
 }
 
-fun maxProfit(prices: IntArray): Int {
+
+/**
+ * 一次遍历
+ * 都是假设今天是最高值,今天卖出去, 前面哪天卖挣的最多
+ */
+fun maxProfit (prices: IntArray): Int {
+    //自第一天要是最大最大才能保证 后面是比 他小的,或者记录第一天的值,但是要判空
+    var minInt = Int.MAX_VALUE
+    //最大利润
+    var maxInt = 0
+    for (it in prices.indices) {
+        //今天之前的最小值 也就是最便宜的买入  记录当天之前的最低值
+        minInt = Math.min(prices[it], minInt)
+        // 今天的利润是 prices[it]-minInt,之前的事 maxInt 取最大的
+        maxInt = Math.max(maxInt, prices[it] - minInt)
+    }
+    return maxInt
+}
+
+/**
+ * 基础暴力法
+ */
+fun maxProfit2(prices: IntArray): Int {
 //    每个数为起点,后面数字的最大的 减去前面的数字
     var maxInt = 0
 
