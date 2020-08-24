@@ -42,6 +42,14 @@ object LeetCode155{
     }
 }
 
+/**
+ * 记录最小的在 在栈里
+ * 1  2  3  1  4  0  -2
+ * 1  -  -  1  -  0  -2
+ * //更简单的理解 递减的
+ * 1  1  1  1  1  0  -2
+ *
+ */
 class MinStack() {
 
     /** initialize your data structure here. */
@@ -58,7 +66,7 @@ class MinStack() {
 
     fun push(x: Int) {
         stack?.push(x)
-        //如果进来的是更小的 就要留下
+        //如果进来的是更小的 就要留下 一样小的 也要留下
         if (min_stack?.size==0||x<= min_stack?.lastElement()!!){
           if( stack!=null){min_stack?.push(x)}
 
@@ -69,7 +77,7 @@ class MinStack() {
     fun pop() {
         val lastItem=stack?.lastElement()
         stack?.pop()
-        //如果进来的是更小的 就要留下
+        //移出去 的是当前最小的  最小栈也要移出去最小的
         if (min_stack?.lastElement()==lastItem){
             min_stack?.pop()
         }
