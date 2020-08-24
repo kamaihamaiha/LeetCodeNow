@@ -1,12 +1,15 @@
 package cn.leetcode.kotlin.MeloZhangZhen;
 
 public class ATestJava {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         repeatedSubstringPattern("sss");
     }
 
 
-    public static boolean repeatedSubstringPattern(String s) {
+    public static boolean repeatedSubstringPattern(String s) throws Exception {
+
+        if (s.length()==0) throw   new Exception();
+
         //首先获取长度
         int n = s.length();
         // 没有 2位数  肯定不是循环的 直接 false  所以只需要循环一半的字符就行了
