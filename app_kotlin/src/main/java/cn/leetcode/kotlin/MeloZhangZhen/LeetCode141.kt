@@ -30,15 +30,9 @@ object LeetCode141 {
         listNode3.next = listNode4
         listNode4.next = listNode1
 
-
+        println(hasCycle(listNode1))
     }
 }
-
-
-
-
-
-
 
 
 /**
@@ -46,19 +40,26 @@ object LeetCode141 {
  *
  */
 fun hasCycle(head: ListNode?): Boolean {
-
+    //快一个慢一个
+    var slowNext = head?.next
+    var fastNext = head?.next?.next
+    //只要不是空 就一直走下去
+    while (slowNext != null && fastNext != null) {
+        if (slowNext == fastNext) {
+            return true
+        }
+        //替换新的
+        slowNext= slowNext?.next
+        fastNext= fastNext?.next?.next
+    }
     return false
 }
 
 /**
  * 自杀式断开,把左手右手练到一起,如果 有人左右自我拉到一起了 那说明是有环的...
  *
- *
+ *  自己左手拉右手 就是断开,但是有可能还会被别人拉住
  */
-fun hasCycle1(head: ListNode?): Boolean {
-    return killSelf(head)
-}
-
 
 fun killSelf(head: ListNode?): Boolean {
     //自己拉自己  有环
@@ -66,7 +67,7 @@ fun killSelf(head: ListNode?): Boolean {
         return true
     }
     //无后了 没环
-    if (head?.next==null){
+    if (head?.next == null) {
         return false
     }
     //断开自己  右手变成了头
