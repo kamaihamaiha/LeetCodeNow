@@ -37,12 +37,13 @@ object LeetCode136 {
  *
  *  但是
  *  内存消耗：36.2 MB, 在所有 Kotlin 提交中击败了40.91%的用户
+ *  并没有后面那singleNumber3 循环的 内存消耗的少
  *
  */
 fun singleNumber(nums: IntArray): Int {
     var single = 0
     for (num in nums) {
-        single = single xor num
+        single = single xor num//与算法 和+-算法的秒的地方是不用判断有没有,与两遍 就等于一加一减
     }
     return single
 

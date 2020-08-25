@@ -10,6 +10,8 @@ public class ATestJava {
 
         if (s.length()==0) throw   new Exception();
 
+
+
         //首先获取长度
         int n = s.length();
         // 没有 2位数  肯定不是循环的 直接 false  所以只需要循环一半的字符就行了
