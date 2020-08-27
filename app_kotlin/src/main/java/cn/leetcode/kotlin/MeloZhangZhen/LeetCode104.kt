@@ -50,7 +50,7 @@ fun maxDepth(root: TreeNode?): Int {
     } else {
         //取下一层  左边最大+1  右边最大+1
 
-        Math.max(maxDepth(root.left) + 1,maxDepth(root.right) + 1)
+        (maxDepth(root.left) + 1).coerceAtLeast(maxDepth(root.right) + 1)
     }
 
 }
