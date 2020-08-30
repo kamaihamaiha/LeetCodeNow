@@ -4,6 +4,9 @@ public class ATestJava {
     public static void main(String[] args) throws Exception {
         repeatedSubstringPattern("sss");
     }
+    class Solution {
+
+    }
 
 
     public static boolean repeatedSubstringPattern(String s) throws Exception {
