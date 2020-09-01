@@ -8,6 +8,9 @@ class ListNode {
     var `val` = 0
     var next: ListNode? = null
 
+    internal constructor( ) {
+        this.`val` = `val`
+    }
     internal constructor(`val`: Int) {
         this.`val` = `val`
     }
