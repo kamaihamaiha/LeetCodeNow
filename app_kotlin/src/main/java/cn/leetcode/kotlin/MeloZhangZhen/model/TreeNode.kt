@@ -11,7 +11,7 @@ package cn.leetcode.kotlin.MeloZhangZhen.model
      / \ / \
     3  4 4  3
  */
-class TreeNode(var `val`: Int?, val left: TreeNode?, val right: TreeNode?) {
+class TreeNode(var `val`: Int?, var left: TreeNode?, var right: TreeNode?) {
 
 
 }
