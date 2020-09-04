@@ -16,6 +16,7 @@ public class ATestJava {
 
 
 
+
         int n = s.length();
         // 没有 2位数  肯定不是循环的 直接 false  所以只需要循环一半的字符就行了
         for (int i = 1; i * 2 <= n; ++i) {
