@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
 /**
 17. 电话号码的字母组合

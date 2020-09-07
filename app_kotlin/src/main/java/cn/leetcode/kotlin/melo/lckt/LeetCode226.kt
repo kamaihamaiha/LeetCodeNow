@@ -1,6 +1,6 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
-import cn.leetcode.kotlin.MeloZhangZhen.model.TreeNode
+import cn.leetcode.kotlin.melo.model.TreeNode
 
 /**
  * 反转 二叉树  左右反转

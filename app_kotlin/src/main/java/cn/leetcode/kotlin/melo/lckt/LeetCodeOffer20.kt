@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
 /**
 剑指 Offer 20. 表示数值的字符串

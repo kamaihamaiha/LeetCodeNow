@@ -1,5 +1,6 @@
-import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
-import cn.leetcode.kotlin.MeloZhangZhen.model.TreeNode
+package cn.leetcode.kotlin.melo.lckt
+
+import cn.leetcode.kotlin.melo.model.TreeNode
 
 /**
  *70. 爬楼梯

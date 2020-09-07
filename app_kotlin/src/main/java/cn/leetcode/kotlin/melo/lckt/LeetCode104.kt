@@ -1,6 +1,6 @@
-import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
-import cn.leetcode.kotlin.MeloZhangZhen.model.TreeNode
-import kotlin.math.max
+package cn.leetcode.kotlin.melo.lckt
+
+import cn.leetcode.kotlin.melo.model.TreeNode
 
 /**
 给定一个二叉树，找出其最大深度。

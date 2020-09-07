@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
 /**
  * 198. 打家劫舍

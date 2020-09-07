@@ -1,6 +1,6 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
-import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
+import cn.leetcode.kotlin.melo.model.ListNode
 
 /**
  * [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)

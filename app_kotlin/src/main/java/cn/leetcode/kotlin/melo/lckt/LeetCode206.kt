@@ -1,6 +1,6 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
-import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
+import cn.leetcode.kotlin.melo.model.ListNode
 
 /**
  * 206 反转一个单链表。

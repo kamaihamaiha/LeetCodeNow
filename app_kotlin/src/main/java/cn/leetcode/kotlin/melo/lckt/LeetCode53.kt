@@ -1,3 +1,5 @@
+package cn.leetcode.kotlin.melo.lckt
+
 import java.lang.Math.max
 
 object LeetCode53 {

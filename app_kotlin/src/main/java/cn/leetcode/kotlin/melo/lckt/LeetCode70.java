@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen;
+package cn.leetcode.kotlin.melo.lckt;
 
 public class LeetCode70 {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package cn.leetcode.kotlin.MeloZhangZhen
+package cn.leetcode.kotlin.melo.lckt
 
 import java.util.*
-import kotlin.math.min
 
 /**
 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。

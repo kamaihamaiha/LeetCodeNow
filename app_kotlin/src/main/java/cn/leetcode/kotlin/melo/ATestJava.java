@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen;
+package cn.leetcode.kotlin.melo;
 
 public class ATestJava {
     public static void main(String[] args) throws Exception {

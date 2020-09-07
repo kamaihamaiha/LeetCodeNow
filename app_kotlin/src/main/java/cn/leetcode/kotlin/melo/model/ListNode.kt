@@ -1,4 +1,4 @@
-package cn.leetcode.kotlin.MeloZhangZhen.model
+package cn.leetcode.kotlin.melo.model
 
 /**
  * 链表结构

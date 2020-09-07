@@ -1,4 +1,6 @@
-import cn.leetcode.kotlin.MeloZhangZhen.model.ListNode
+package cn.leetcode.kotlin.melo.lckt
+
+import cn.leetcode.kotlin.melo.model.ListNode
 
 object LeetCode21 {
     @JvmStatic

@@ -1,3 +1,5 @@
+package cn.leetcode.kotlin.melo.lckt
+
 /**
  *70. 爬楼梯
  *
