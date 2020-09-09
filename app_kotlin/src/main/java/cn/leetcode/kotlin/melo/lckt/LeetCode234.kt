@@ -8,8 +8,11 @@ import cn.leetcode.kotlin.melo.model.ListNode
  * 请判断一个链表是否为回文链表
  *
  * todo 问题再反转之后就被反转了
+ * 递归的跳出条件摸不清楚
  */
 object LeetCode234 {
+    var copyStringList = arrayListOf<Int>()
+
     @JvmStatic
     fun main(args: Array<String>) {
         val listNode1 = ListNode(0)
@@ -31,28 +34,38 @@ object LeetCode234 {
 
     }
 
-    //反转一下 然后比对  反转之后 自己本身也反转了...能不能 copy 一个
-    //大家思路就是  只翻转前一半 然后 再比较
-    /**
-     *
-     */
+
     fun isPalindrome(head: ListNode?): Boolean {
-        val oldList = copy(ListNode(), head)
-        val fanList = reverseList1(head)
 
-        return deng(oldList, fanList)
+        val oldList = copy(head)
 
+        val back = reverseList1(head)
+
+        return deng(oldList, back)
 
     }
 
-    private fun copy(copyNode: ListNode?, listNode: ListNode?): ListNode? {
+    private fun copy(listNode: ListNode?): ListNode? {
+        //换成数组
+        var copyList = ListNode()
 
-        while (listNode != null) {
-            copyNode?.`val` = listNode.`val`
-            copy(copyNode?.next, listNode.next)
+        getval(listNode)
+        copyStringList.forEach {
+            copyList.`val` = it
+            copyList.next = ListNode()
+            copyList = copyList.next!!
+        }
+        return copyList
+    }
+
+
+    private fun getval(listNode: ListNode?) {
+        if (listNode==null)return
+        while (listNode?.next != null) {
+            copyStringList.add(listNode.`val`)
+            getval(listNode.next)
         }
 
-        return copyNode
 
     }
 
@@ -62,6 +75,7 @@ object LeetCode234 {
         } else if (head == null && back != null) {
             return false
         } else if (head != null && back == null) {
+
             return false
         } else {
             if (head?.`val` != back?.`val`) {
@@ -71,7 +85,6 @@ object LeetCode234 {
             }
         }
     }
-
 
     fun reverseList1(head: ListNode?): ListNode? {
         var backListNode: ListNode? = null
@@ -88,6 +101,7 @@ object LeetCode234 {
             backListNode = mHead
             //
             mHead = otherList
+
         }
         //下个是空了 最后一个 接上后来的屁股
         mHead?.next = backListNode
@@ -95,4 +109,3 @@ object LeetCode234 {
 
     }
 }
-
