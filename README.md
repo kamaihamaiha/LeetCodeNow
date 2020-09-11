@@ -2,16 +2,34 @@
 
 - [力扣官网](https://leetcode-cn.com/)
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
+
 #难度：简单
 #状态：未做
 #列表：LeetCode 热题 HOT100 
 #标签：无
+#时间：9/6–9/11
+
+题目 1：[538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
+
+题目 2：[234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+
+题目 3：[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
+
+题目 4：[48. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
+
+题目 5：[461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+
+
 #时间：8/31--9/4
 
 题目 1：[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+
 题目 2：[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+
 题目 3：[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+
 题目 4：[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+
 题目 5：[226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 #难度：简单
