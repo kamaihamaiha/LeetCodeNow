@@ -15,7 +15,7 @@
 
 题目 3：[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
-题目 4：[48. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
+题目 4：[448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
 
 题目 5：[461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
 
@@ -40,8 +40,7 @@
 
 题目 1：[有效的括号  （20)](https://leetcode-cn.com/problems/valid-parentheses/)
 
-题目 2：[买卖股票的最佳时机（121）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
-)   
+题目 2：[买卖股票的最佳时机（121）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 
 题目 3：[ 只出现一次的数字（136）](https://leetcode-cn.com/problems/single-number/)   
 
