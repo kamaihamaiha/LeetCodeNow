@@ -4,6 +4,19 @@
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
 
 #难度：简单
+#时间：9/14–9/19
+
+题目 1：[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+
+题目 2：[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)
+
+题目 3：[13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+
+题目 4：[26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+题目 5：[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
+
+#难度：简单
 #状态：未做
 #列表：LeetCode 热题 HOT100 
 #标签：无
