@@ -15,6 +15,7 @@ object LeetCode7 {
 
     /**
      * 最垃圾的反转字符串方法
+     * 正常用除法和取模 才是对的
      */
     fun reverse(x: Int): Int {
         try {
