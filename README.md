@@ -2,6 +2,19 @@
 
 - [力扣官网](https://leetcode-cn.com/)
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
+#难度：简单
+#时间：9/21–9/25
+
+题目 1：[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
+
+题目 2：[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+
+题目 3：[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+
+题目 4：[38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)
+
+题目 5：[58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
+
 
 #难度：简单
 #时间：9/14–9/19
