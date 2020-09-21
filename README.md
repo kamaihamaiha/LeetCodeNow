@@ -5,7 +5,7 @@
 #难度：简单
 #时间：9/21–9/25
 
-题目 1：[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
+题目 1： [66. 加一](https://leetcode-cn.com/problems/plus-one/)
 
 题目 2：[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
 
