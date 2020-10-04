@@ -1,24 +1,48 @@
 package cn.leetcode.kk.code160;
 
+
+import cn.leetcode.kk.model.ListNode;
+
 /**
- * 160. 相交链表: https://leetcode-cn.com/problems/hamming-distance/
+ * 8
+ * [4,1,8,4,5]
+ * [5,6,1,8,4,5]
+ * 2
+ * 3
  */
 public class Main {
 
     public static void main(String[] args) {
 
-        ListNode ln1 = new ListNode(0);
-        ln1.next = new ListNode(9);
-        ln1.next.next = new ListNode(1);
-        ln1.next.next.next = new ListNode(2);
-        ln1.next.next.next.next = new ListNode(4);
+        ListNode node4 = new ListNode(4);
+        ListNode node1 = new ListNode(1);
+        ListNode node8 = new ListNode(8);
+        ListNode node4_second = new ListNode(4);
+        ListNode node5 = new ListNode(5);
 
-        ListNode ln2 = new ListNode(3);
-        ln2.next = ln1.next.next.next;
-        ln2.next.next = new ListNode(4);
+        ListNode node5_second = new ListNode(5);
+        ListNode node6 = new ListNode(6);
 
-        ListNode intersectionNode = Solution.getIntersectionNode(ln1, ln2);
+        ListNode pA = node4;
+        ListNode pB = node5_second;
 
-        System.out.println(intersectionNode.val);
+//        ListNode pA = lA;
+//        ListNode pB = lB;
+
+        pA.next = node1;
+        node1.next = node8;
+        node8.next = node4_second;
+        node4_second.next = node5;
+
+        node5_second.next = node6;
+        node6.next = node1;
+
+        ListNode intersectionNode = Solution.getIntersectionNode(pA, pB);
+
+        while (intersectionNode != null){
+            System.out.println(intersectionNode.value);
+            intersectionNode = intersectionNode.next;
+        }
+
     }
 }
