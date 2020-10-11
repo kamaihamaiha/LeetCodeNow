@@ -2,6 +2,23 @@
 
 - [力扣官网](https://leetcode-cn.com/)
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
+
+
+
+#难度：简单
+#时间：10/12–10/17
+
+题目 1： [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)
+
+题目 2：[69.x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+
+题目 3：[83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+
+题目 4：[88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+
+题目 5：[100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
+
+
 #难度：简单
 #时间：9/21–9/25
 
