@@ -26,6 +26,7 @@ public class Solution {
 
         ListNode move = mergeListNode;
 
+        //如果两个链表都不为空，则指针指向小的那个，并且链表前进一步,指针也要前进一步
         while (listNode1 != null && listNode2 != null) {
             if (listNode1.value <= listNode2.value) {
                 move.nextNode = listNode1;
@@ -68,4 +69,42 @@ public class Solution {
         }
 
     }
+
+    public ListNode mergeTwoListNode3(ListNode listNode1,ListNode listNode2){
+        if (listNode1 == null || listNode2 == null) {
+            return null;
+        }
+
+        if (listNode1.value < listNode2.value){
+            listNode1.nextNode = mergeTwoListNode3(listNode1.nextNode,listNode2);
+            return listNode1;
+        } else {
+            listNode2.nextNode = mergeTwoListNode3(listNode1,listNode2.nextNode);
+            return listNode2;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

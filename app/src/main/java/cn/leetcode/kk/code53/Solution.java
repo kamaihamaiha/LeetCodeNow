@@ -11,7 +11,7 @@ package cn.leetcode.kk.code53;
      * @param nums 数组
      * @return -1： 数组为空
      */
-     static int maxSubarraySum(int[] nums){
+     static int maxSubArraySum(int[] nums){
 
         if (nums == null) {
             return -1;
@@ -21,7 +21,7 @@ package cn.leetcode.kk.code53;
             return nums[0];
         }
 
-        int sum = 0;
+        int sum = nums[0];
 
         //临时子列和
         int tempSum = nums[0];
