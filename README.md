@@ -6,6 +6,19 @@
 
 
 #难度：简单
+#时间：10/19–10/24
+
+题目 1： [107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+
+题目 2：[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+题目 3：[110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+
+题目 4：[111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+
+题目 5：[112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
+
+#难度：简单
 #时间：10/12–10/17
 
 题目 1： [67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)
