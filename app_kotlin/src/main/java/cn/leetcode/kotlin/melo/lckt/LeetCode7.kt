@@ -1,13 +1,12 @@
 package cn.leetcode.kotlin.melo.lckt
 
-import java.lang.Exception
-
 /**
  * 整数反转
  */
 object LeetCode7 {
     @JvmStatic
     fun main(args: Array<String>) {
+        println(-5 + 1 / 4 + 2 * -3 + 5)
 
         println(reverse(901000).toString())
 

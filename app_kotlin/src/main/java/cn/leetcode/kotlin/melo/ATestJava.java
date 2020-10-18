@@ -3,6 +3,8 @@ package cn.leetcode.kotlin.melo;
 public class ATestJava {
     public static void main(String[] args) throws Exception {
         repeatedSubstringPattern("sss");
+        System.out.println(-5 + 1 / 4 + 2 * -3 + 5);
+
     }
     class Solution {
 
