@@ -2,7 +2,19 @@
 
 - [力扣官网](https://leetcode-cn.com/)
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
+ 
+#难度：简单
+#时间：10/26–10/30
 
+题目 1： [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
+
+题目 2：[119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+
+题目 3：[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+题目 4：[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+
+题目 5：[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 
 
 #难度：简单
