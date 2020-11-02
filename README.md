@@ -4,6 +4,20 @@
 - [算法题首页](https://leetcode-cn.com/problemset/algorithms/)
  
 #难度：简单
+#时间：11 月第一周
+
+题目 1： [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)
+
+题目 2：[171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)
+
+题目 3：[172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+
+题目 4：[175. 组合两个表](https://leetcode-cn.com/problems/combine-two-tables/)
+
+题目 5：[176. 第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary/)
+
+ 
+#难度：简单
 #时间：10/26–10/30
 
 题目 1： [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
