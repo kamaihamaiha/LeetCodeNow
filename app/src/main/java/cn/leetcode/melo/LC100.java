@@ -1,6 +1,6 @@
 package cn.leetcode.melo;
 
-import cn.leetcode.kk.model.TreeNode;
+import cn.leetcode.melo.model.TreeNode;
 
 /**
  * 二叉树的 比较

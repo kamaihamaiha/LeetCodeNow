@@ -1,4 +1,4 @@
-package cn.leetcode.kk.model;
+package cn.leetcode.melo.model;
 
 public class ListNode {
 

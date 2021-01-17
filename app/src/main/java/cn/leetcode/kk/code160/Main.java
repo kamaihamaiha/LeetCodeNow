@@ -1,7 +1,7 @@
 package cn.leetcode.kk.code160;
 
 
-import cn.leetcode.kk.model.ListNode;
+import cn.leetcode.melo.model.ListNode;
 
 /**
  * 8

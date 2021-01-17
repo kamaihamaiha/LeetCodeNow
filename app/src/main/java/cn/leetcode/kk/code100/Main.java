@@ -1,6 +1,6 @@
 package cn.leetcode.kk.code100;
 
-import cn.leetcode.kk.model.TreeNode;
+import cn.leetcode.melo.model.TreeNode;
 
 /**
  * 100. 相同的数

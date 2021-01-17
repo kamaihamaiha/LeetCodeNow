@@ -1,7 +1,7 @@
 package cn.leetcode.kk.code83;
 
 
-import cn.leetcode.kk.model.ListNode;
+import cn.leetcode.melo.model.ListNode;
 
 /**
  * 83. 删除排序链表中的重复元素

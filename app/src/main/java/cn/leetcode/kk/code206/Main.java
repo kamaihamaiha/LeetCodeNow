@@ -1,6 +1,6 @@
 package cn.leetcode.kk.code206;
 
-import cn.leetcode.kk.model.ListNode;
+import cn.leetcode.melo.model.ListNode;
 
 /**
  * 206. 反转链表

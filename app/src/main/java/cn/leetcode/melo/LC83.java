@@ -1,7 +1,7 @@
 package cn.leetcode.melo;
 
 
-import cn.leetcode.kk.model.ListNode;
+import cn.leetcode.melo.model.ListNode;
 
 /**
  * 有序链表删除重复值

@@ -1,6 +1,6 @@
-package cn.leetcode.kotlin.melo.lckt;
+package cn.leetcode.melo;
 
-public class LeetCode70 {
+public class LC70 {
     public static void main(String[] args) {
         climbStairs(2);
     }
