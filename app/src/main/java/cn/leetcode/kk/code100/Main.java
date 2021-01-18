@@ -41,7 +41,7 @@ public class Main {
             return false;
         }
 
-        if (p.value != q.value){
+        if (p.val != q.val){
             return false;
         }
 
