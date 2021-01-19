@@ -7,7 +7,7 @@ object LeetCodeLetApplyWith {
         val i = testLet()
         val i2 = testApply()
         val i3 = testWith()
-
+        reapt()
     }
 
     fun testApply() {
@@ -26,13 +26,22 @@ object LeetCodeLetApplyWith {
             return 1
         }
     }
+
     fun testWith() {
-        with(ArrayList<String>()) {
+        val arr = with(ArrayList<String>()) {
             add("testWith")
             add("testWith")
             add("testWith")
             this
         }.let { println(it) }
+    }
+
+    fun reapt() {
+        repeat(20) {
+            println("Hello world")
+
+        }
+
     }
 }
 
