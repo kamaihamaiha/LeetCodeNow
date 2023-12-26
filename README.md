@@ -165,9 +165,9 @@
 
 #### 包代码说明
 
-##### app
+##### About
 
-- kk: 张开旭
+- [kk: 张开旭](./readme_kk.md)
 - tracymelo: 张震
 
 ##### app_kotlin
