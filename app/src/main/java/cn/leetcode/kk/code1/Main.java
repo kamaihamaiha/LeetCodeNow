@@ -20,14 +20,16 @@ public class Main {
     public static void main(String[] args) {
 
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] nums_2 = new int[]{3, 2, 4};
 
-        for (int target = 3; target < 20; target++) {
-            int[] ints = Solution.twoSum(nums, target);
+        int[] ints = Solution.twoSum2(nums_2, 6);
+        /*for (int target = 3; target < 20; target++) {
+            int[] ints = Solution.twoSum2(nums, target);
 
             if (ints[0] != -1) {
                 System.out.println("nums[" + ints[0] + "] + " + "nums[" + ints[1] + "] = " + target);
             }
-        }
+        }*/
     }
 
 }
