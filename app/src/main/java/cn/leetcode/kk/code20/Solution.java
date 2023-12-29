@@ -82,4 +82,37 @@ public class Solution {
         //判断，stack 是否为空
         return stack.empty();
     }
+
+    public  boolean isValidV2(String str) {
+        if (str == null || str.length() % 2 != 0) {
+            return false;
+        }
+
+        Stack<Character> stack = new Stack<>();
+        for (char c : str.toCharArray()) {
+            if(c == '(' || c == '[' || c == '{') { // 左括号都入栈
+                stack.push(c);
+            } else { // 右括号
+                if(stack.isEmpty()) return false; // 栈为空，说明没有左括号，直接返回false
+                if (stack.peek() == getPairChar(c)) { // 成堆则出栈
+                    stack.pop();
+                } else {
+                    stack.push(c);
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public char getPairChar(char c) {
+        switch (c) {
+            case ')':
+                return '(';
+            case ']':
+                return '[';
+            case '}':
+                return '{';
+        }
+        return c;
+    }
 }
