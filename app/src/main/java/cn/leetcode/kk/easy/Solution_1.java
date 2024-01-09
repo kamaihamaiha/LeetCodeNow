@@ -1,9 +1,12 @@
-package cn.leetcode.kk.code1;
+package cn.leetcode.kk.easy;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+/**
+ * 1. 两数之和
+ */
+public class Solution_1 {
 
     public static int[] twoSum(int[] sums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
